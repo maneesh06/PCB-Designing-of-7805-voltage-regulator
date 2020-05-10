@@ -1,0 +1,21 @@
+* C:\Users\MANEESH\Desktop\7805Voltage Regulator\7805VoltageRegulator.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 04/27/20 15:31:26
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+D1  Net-_D1-Pad1_ Net-_C1-Pad1_ eSim_Diode		
+D2  GND Net-_D1-Pad1_ eSim_Diode		
+D4  GND Net-_D3-Pad1_ eSim_Diode		
+D3  Net-_D3-Pad1_ Net-_C1-Pad1_ eSim_Diode		
+D5  GND Net-_C2-Pad1_ eSim_Diode		
+C1  Net-_C1-Pad1_ GND 1000u		
+C2  Net-_C2-Pad1_ GND 3.3u		
+R1  Net-_C2-Pad1_ GND 1k		
+X1  Net-_C1-Pad1_ GND Net-_C2-Pad1_ Lm_7805		
+J2  Net-_C2-Pad1_ GND Conn_01x02		
+J1  Net-_D3-Pad1_ Net-_D1-Pad1_ Screw_Terminal_01x02		
+
+.end
